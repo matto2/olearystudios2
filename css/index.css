@@ -1,5 +1,3 @@
-
-
 /* html {
   font-family: 'Inter', sans-serif;
 }
@@ -21,7 +19,7 @@
   --header-bkg: #fff;
   --white: #fff;
   --turquoise: #05BECE;
-  --primary-color :#326ff3;
+  --primary-color: #326ff3;
   --primary-text: #555555;
   --bkg-color: yellow;
 }
@@ -43,71 +41,81 @@
 }
 
 
-element.style {
-}
+element.style {}
+
 .logo :link:not(:hover) {
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .head-wrapper a:link {
-    color: var(--primary-text2);
+  color: var(--primary-text2);
 }
+
 .logo a {
-    color: var(--primary-text2);
+  color: var(--primary-text2);
 }
+
 a[href] {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
+
 .logo {
-    /* padding: 0 1rem; */
-    /* float: left; */
-    font-size: 1.1em;
-    text-decoration: none;
-    display: flex;
-    flex-grow: 1;
+  /* padding: 0 1rem; */
+  /* float: left; */
+  font-size: 1.1em;
+  text-decoration: none;
+  display: flex;
+  flex-grow: 1;
 }
+
 a {
-    background-color: transparent;
+  background-color: transparent;
 }
+
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-user agent stylesheet
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
+
+user agent stylesheet a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
 }
-user agent stylesheet
-li {
-    text-align: -webkit-match-parent;
+
+user agent stylesheet li {
+  text-align: -webkit-match-parent;
 }
+
 .nav {
-    padding: 22px 0;
-    list-style: none;
-    /* float: right; */
-    /* margin-left: 1em; */
-    margin: 0 1em;
-    display: flex;
-    justify-content: flex-start;
+  padding: 22px 0;
+  list-style: none;
+  /* float: right; */
+  /* margin-left: 1em; */
+  margin: 0 1em;
+  display: flex;
+  justify-content: flex-start;
 }
-user agent stylesheet
-ul {
-    list-style-type: disc;
+
+user agent stylesheet ul {
+  list-style-type: disc;
 }
+
 header {
-    /* border-bottom: 1px dashed var(--bg-color); */
-    max-width: 800px;
-    margin: 0 auto;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  /* border-bottom: 1px dashed var(--bg-color); */
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
-html, body {
-    /* max-width: 800px; */
-    padding: 0;
-    margin: 0 auto;
-    font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
-    color: var(--primary-text2);
-    background-color: var(--bg-color);
-    height: 100%;
+
+html,
+body {
+  /* max-width: 800px; */
+  padding: 0;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  color: var(--primary-text2);
+  background-color: var(--bg-color);
+  height: 100%;
 }
 
 
@@ -123,7 +131,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
   color: var(--primary-text2);
   background-color: var(--bg-color);
-  
+
   height: 100%;
 }
 
@@ -172,7 +180,7 @@ main {
   max-width: 800px;
   margin: 0 auto;
   /* font-family: sans-serif; */
-  font-family:-apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
 }
 
 footer {
@@ -182,7 +190,8 @@ footer {
   border-top: 1px solid var(--gray);
 }
 
-footer, .push {
+footer,
+.push {
   height: 60px;
 }
 
@@ -190,6 +199,7 @@ footer p {
   color: var(--primary-text2);
   font-size: 90%;
 }
+
 .footer-wrap {
   width: 100%;
 }
@@ -198,7 +208,7 @@ main :first-child {
   /* margin-top: 0; */
 }
 
-.head-wrapper{
+.head-wrapper {
   width: 100%;
   background-color: var(--header-bkg);
   /* margin-top: -16px; */
@@ -356,8 +366,8 @@ pre {
 }
 
 /* .nav-item-active { */
-  /* font-weight: 700; */
-  /* text-decoration: underline; */
+/* font-weight: 700; */
+/* text-decoration: underline; */
 /* } */
 
 /* .nav-item-active a:active {
@@ -388,7 +398,7 @@ pre {
 .postlist-item:before {
   display: inline-block;
   pointer-events: none;
-  content: ""counter(start-from, decimal-leading-zero) ". ";
+  content: "" counter(start-from, decimal-leading-zero) ". ";
   line-height: 100%;
   text-align: right;
 }
@@ -556,9 +566,9 @@ h1 {
 @media (min-width: 768px) {
   .grid {
     display: grid;
-  grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
-  
+
   /* .nav {
     display: flex;
     justify-content: flex-start;
@@ -626,7 +636,7 @@ strong {
 }
 */
 .theme-switch input {
-  display:none;
+  display: none;
 }
 
 .slider {
@@ -651,11 +661,11 @@ strong {
   width: 26px;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: #c22ffd;
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(26px);
 }
 
@@ -701,13 +711,15 @@ input:checked + .slider:before {
 .up {
 
   margin-top: -4.2rem;
-  
+
 }
 
-.sl-wrapper .sl-close, .sl-wrapper .sl-counter {
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-counter {
   top: 30px;
   display: none;
-  color: var(--primary-color);;
+  color: var(--primary-color);
+  ;
   position: fixed;
 }
 
@@ -719,7 +731,8 @@ input:checked + .slider:before {
   text-align: center;
   display: block;
   z-index: 1060;
-  color: var(--primary-color);;
+  color: var(--primary-color);
+  ;
 }
 
 .sl-overlay {
@@ -732,4 +745,9 @@ input:checked + .slider:before {
   opacity: .95;
   display: none;
   z-index: 1050;
+}
+
+.bolder {
+  color: deeppink !important;
+  font-weight: 600;
 }
